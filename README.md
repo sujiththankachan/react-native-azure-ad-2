@@ -1,4 +1,4 @@
-# React-native-azure-ad-2
+# React-native-azure-ad-authentication
 Trying to access a Microsoft Accounts is kind of bizarre. Microsoft previously separated their user accounts into two different domains, one for their cloud platform –  Microsoft Azure – and another for general users who are using their services like Hotmail, One Drive or Xbox.
 
 This meant developers had to use different authentication endpoints in order to authenticate users from different services.
@@ -24,14 +24,14 @@ ___
 ## Installation
 Install package from `npm`
 ```sh
-$ npm install -s react-native-azure-ad-2
+$ npm install -s sujiththankachan/react-native-azure-ad-authentication
 ```
 
 ## Usage
 First, import the component
 
 ```javascript
-import {AzureInstance, AzureLoginView} from 'react-native-azure-ad-2'
+import {AzureInstance, AzureLoginView} from 'react-native-azure-ad-authentication'
 ```
 Then create an AzureInstance by using Microsoft application credential that we have registered.  Also, adding application scope in order to ask users to consent when they login. For more information about scope see [Microsoft blog](https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-scopes/).
 ```javascript
