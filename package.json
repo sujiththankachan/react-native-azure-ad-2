@@ -23,10 +23,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sujiththankachan/react-native-azure-ad-2"
+    "url": "git+https://github.com/sujiththankachan/react-native-azure-ad-authentication"
   },
   "bugs": {
-    "url": "https://github.com/sujiththankachan/react-native-azure-ad-2/issues"
+    "url": "https://github.com/sujiththankachan/react-native-azure-ad-authentication/issues"
   },
-  "homepage": "https://github.com/sujiththankachan/react-native-azure-ad-2#readme"
+  "homepage": "https://github.com/sujiththankachan/react-native-azure-ad-authentication#readme"
 }
