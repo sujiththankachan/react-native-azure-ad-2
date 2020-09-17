@@ -1,32 +1,33 @@
 {
-  "name": "react-native-azure-ad-2",
-  "version": "1.0.5",
-  "description": "A React Native module for Azure AD enpoint version 2. This module implement Azure AD authentication using pure React-Native with no others lib. require",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "buffer": "^5.0.0",
-    "query-string": "^4.2.3",
-    "react-native-webview": "^10.9.0",
-    "react-timer-mixin": "^0.13.4",
-    "url": "^0.11.0",
-    "uuid": "^2.0.3"
-  },
-  "keywords": [
-    "AzureAD",
-    "Microsoft Account",
-    "Microsoft Authentication"
-  ],
-  "author": "maxzitron",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/seedtech/react-native-azure-ad-2.git"
-  },
-  "bugs": {
-    "url": "https://github.com/seedtech/react-native-azure-ad-2/issues"
-  },
-  "homepage": "https://github.com/seedtech/react-native-azure-ad-2#readme"
+    "name": "react-native-azure-ad-2",
+    "version": "1.0.5",
+    "description": "A React Native module for Azure AD enpoint version 2. This module implement Azure AD authentication using pure React-Native with no others lib. require",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "react-native link react-native-webview"
+    },
+    "dependencies": {
+        "buffer": "^5.0.0",
+        "query-string": "^4.2.3",
+        "react-native-webview": "^10.9.0",
+        "react-timer-mixin": "^0.13.4",
+        "url": "^0.11.0",
+        "uuid": "^2.0.3"
+    },
+    "keywords": [
+        "AzureAD",
+        "Microsoft Account",
+        "Microsoft Authentication"
+    ],
+    "author": "maxzitron",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/seedtech/react-native-azure-ad-2.git"
+    },
+    "bugs": {
+        "url": "https://github.com/seedtech/react-native-azure-ad-2/issues"
+    },
+    "homepage": "https://github.com/seedtech/react-native-azure-ad-2#readme"
 }
