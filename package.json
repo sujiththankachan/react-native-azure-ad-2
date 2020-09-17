@@ -1,7 +1,7 @@
 {
-  "name": "react-native-azure-ad-2",
-  "version": "1.0.5",
-  "description": "A React Native module for Azure AD enpoint version 2. This module implement Azure AD authentication using pure React-Native with no others lib. require",
+  "name": "react-native-azure-authentication",
+  "version": "0.1",
+  "description": "A React Native module for Azure AD enpoint version 2. This module implement Azure AD authentication using pure React-Native with no others lib. require. Forked from  shedaltd/react-native-azure-ad-2",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,10 +23,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seedtech/react-native-azure-ad-2.git"
+    "url": "git+https://github.com/sujiththankachan/react-native-azure-ad-2"
   },
   "bugs": {
-    "url": "https://github.com/seedtech/react-native-azure-ad-2/issues"
+    "url": "https://github.com/sujiththankachan/react-native-azure-ad-2/issues"
   },
-  "homepage": "https://github.com/seedtech/react-native-azure-ad-2#readme"
+  "homepage": "https://github.com/sujiththankachan/react-native-azure-ad-2#readme"
 }
