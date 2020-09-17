@@ -1,6 +1,6 @@
 {
   "name": "react-native-azure-authentication",
-  "version": "1.0",
+  "version": "1.0.5",
   "description": "A React Native module for Azure AD enpoint version 2. This module implement Azure AD authentication using pure React-Native with no others lib. require. Forked from  shedaltd/react-native-azure-ad-2",
   "main": "lib/index.js",
   "scripts": {
